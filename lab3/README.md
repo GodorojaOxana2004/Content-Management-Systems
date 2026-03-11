@@ -731,7 +731,7 @@ if (!defined('ABSPATH')) { exit; }
 
 Тема активирована в локальной установке WordPress и корректно отображает все типы контента.
 
-** Репозиторий:** [https://gitlab.usm.md/yourname/usm-theme](https://gitlab.usm.md/)
+** Репозиторий:** [[https://usm-theme](https://github.com/GodorojaOxana2004/Content-Management-Systems/tree/main/usm-theme)]
 
 ---
 
