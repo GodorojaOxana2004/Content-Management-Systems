@@ -1,0 +1,96 @@
+
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #333;
+    background: #f5f5f5;
+}
+
+a { color: #0073aa; text-decoration: none; }
+a:hover { text-decoration: underline; color: #005177; }
+img { max-width: 100%; height: auto; display: block; }
+
+.site-wrapper  { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+.content-area  { display: flex; gap: 40px; padding: 40px 0; }
+.main-content  { flex: 1; min-width: 0; }
+
+.site-header {
+    background: #0073aa;
+    color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 6px rgba(0,0,0,.15);
+}
+.site-header .site-wrapper { display: flex; justify-content: space-between; align-items: center; }
+.site-title a    { color: #fff; font-size: 1.8rem; font-weight: 700; }
+.site-description{ color: rgba(255,255,255,.8); font-size: .9rem; margin-top: 4px; }
+
+.main-navigation { background: #005b8a; }
+.main-navigation ul { list-style: none; display: flex; flex-wrap: wrap; max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+.main-navigation ul li a { display: block; padding: 12px 18px; color: #fff; transition: background .2s; }
+.main-navigation ul li a:hover { background: #0073aa; text-decoration: none; }
+
+.post-entry {
+    background: #fff;
+    border-radius: 6px;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 1px 4px rgba(0,0,0,.08);
+}
+.entry-title { font-size: 1.5rem; margin-bottom: 8px; }
+.entry-title a { color: #222; }
+.entry-title a:hover { color: #0073aa; }
+.entry-meta    { font-size: .85rem; color: #777; margin-bottom: 16px; }
+.entry-summary { color: #555; margin-bottom: 20px; }
+
+.read-more {
+    display: inline-block;
+    padding: 8px 20px;
+    background: #0073aa;
+    color: #fff;
+    border-radius: 4px;
+    transition: background .2s;
+}
+.read-more:hover { background: #005b8a; color: #fff; text-decoration: none; }
+
+.single-post-content {
+    background: #fff;
+    border-radius: 6px;
+    padding: 40px;
+    box-shadow: 0 1px 4px rgba(0,0,0,.08);
+}
+.single-post-content h1 { font-size: 2rem; margin-bottom: 10px; }
+.entry-content p  { margin-bottom: 1.2em; }
+.entry-content h2, .entry-content h3 { margin: 1.5em 0 .5em; }
+
+.sidebar { width: 300px; flex-shrink: 0; }
+.widget { background: #fff; border-radius: 6px; padding: 24px; margin-bottom: 24px; box-shadow: 0 1px 4px rgba(0,0,0,.08); }
+.widget-title { font-size: 1.1rem; font-weight: 700; margin-bottom: 14px; padding-bottom: 8px; border-bottom: 2px solid #0073aa; }
+.widget ul { list-style: none; padding: 0; }
+.widget ul li { padding: 6px 0; border-bottom: 1px solid #f0f0f0; }
+.widget ul li:last-child { border-bottom: none; }
+
+.comments-area { background: #fff; border-radius: 6px; padding: 30px; margin-top: 30px; box-shadow: 0 1px 4px rgba(0,0,0,.08); }
+.comments-title { font-size: 1.3rem; margin-bottom: 20px; }
+.comment-list   { list-style: none; padding: 0; }
+.comment-body   { border-bottom: 1px solid #eee; padding: 16px 0; }
+.comment-author cite { font-weight: 700; }
+.comment-metadata    { font-size: .8rem; color: #999; margin-top: 4px; }
+.comment-content     { margin-top: 10px; color: #555; }
+
+.archive-header { background: #fff; border-radius: 6px; padding: 24px 30px; margin-bottom: 30px; box-shadow: 0 1px 4px rgba(0,0,0,.08); }
+.archive-title  { font-size: 1.6rem; color: #0073aa; }
+.archive-description { color: #666; margin-top: 6px; }
+
+.pagination { display: flex; justify-content: center; gap: 8px; margin: 30px 0; }
+.pagination .page-numbers { padding: 8px 14px; background: #fff; border-radius: 4px; color: #0073aa; box-shadow: 0 1px 3px rgba(0,0,0,.1); }
+.pagination .page-numbers.current,
+.pagination .page-numbers:hover { background: #0073aa; color: #fff; text-decoration: none; }
+
+.site-footer { background: #222; color: rgba(255,255,255,.75); text-align: center; padding: 30px 20px; font-size: .9rem; }
+.site-footer a { color: #7eb8d4; }
+
+.no-results { background: #fff; padding: 40px; border-radius: 6px; text-align: center; color: #777; box-shadow: 0 1px 4px rgba(0,0,0,.08); }
