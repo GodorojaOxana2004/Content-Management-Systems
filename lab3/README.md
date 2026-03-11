@@ -731,11 +731,11 @@ if (!defined('ABSPATH')) { exit; }
 
 Тема активирована в локальной установке WordPress и корректно отображает все типы контента.
 
-**🔗 Репозиторий:** [https://gitlab.usm.md/yourname/usm-theme](https://gitlab.usm.md/)
+** Репозиторий:** [https://gitlab.usm.md/yourname/usm-theme](https://gitlab.usm.md/)
 
 ---
 
-## 📖 Список использованных источников
+## Список использованных источников
 
 1. WordPress Developer Documentation. *Theme Handbook* — https://developer.wordpress.org/themes/
 2. WordPress Developer Documentation. *Template Hierarchy* — https://developer.wordpress.org/themes/basics/template-hierarchy/
